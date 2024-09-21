@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials') // Add your Docker Hub credentials ID
-        IMAGE_NAME = 'your-dockerhub-username/your-image-name'
+        IMAGE_NAME = 'nayumdevops/your-image-name'
     }
 
     stages {
