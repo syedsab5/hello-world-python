@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/your-python-repo.git' // Update with your repo URL
+                git 'https://github.com/syedsab5/hello-world-python.git' // Update with your repo URL
             }
         }
 
